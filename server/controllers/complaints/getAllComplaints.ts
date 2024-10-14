@@ -24,6 +24,7 @@ export default async (req: Request, res: Response, next: NextFunction) => {
       title: complaint.title,
       description: complaint.description,
       flat_number: complaint['User.Flats.flat_number'],
+      createdAt: complaint.createdAt,
     }));
 
     res.json({ result });
