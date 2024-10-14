@@ -1,0 +1,225 @@
+#root {
+  font-family: "Tajawal", sans-serif;
+}
+.ant-layout {
+  background: #f0f8ff !important;
+}
+#root {
+  background: #f0f8ff !important;
+}
+.ant-row.ant-row-space-between.ant-row-rtl {
+  background: #fff;
+}
+/* home section */
+.heroBlock {
+  background: url("../../assets/images/header.jpg") no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.heroBlock .container-fluid {
+  display: block;
+}
+
+.heroBlock .ant-carousel,
+.heroBlock .ant-carousel div {
+  height: 100%;
+}
+.heroBlock .content {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding-right: 50px;
+}
+
+.heroBlock h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 30px;
+  color: #fff;
+}
+
+.heroBlock p {
+  margin: 0 0 30px;
+}
+
+.heroBlock .btnHolder {
+  height: auto !important;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 0;
+}
+
+.heroBlock .btnHolder button,
+.heroBlock .btnHolder .fas {
+  margin: 0 10px 0 0;
+}
+
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor {
+  display: flex;
+}
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor .ant-anchor-link {
+  display: flex;
+  background: #fff;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor .ant-anchor-link a {
+  padding-left: 4px;
+}
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor-link:nth-child(2),
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder
+  .ant-anchor
+  .ant-anchor-link:hover {
+  background: #1890ff;
+  color: #fff;
+}
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor-link:nth-child(2) a,
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder
+  .ant-anchor
+  .ant-anchor-link:hover
+  a {
+  color: #fff;
+}
+
+.ant-anchor-wrapper.ant-anchor-rtl.btnHolder .ant-anchor-ink {
+  display: none;
+}
+
+.ant-carousel .slick-dots li {
+  margin: 0 8px !important;
+  height: 32px !important;
+}
+.ant-carousel .slick-dots li button {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 50% !important;
+}
+
+
+/* about us */
+#about-us {
+  padding: 24px 50px;
+}
+
+#about-us .ant-typography.ant-typography-rtl {
+  line-height: 4;
+  word-spacing: 5px;
+}
+
+#about-us
+  .ant-col.ant-col-rtl.ant-col-sm-24.ant-col-sm-offset-0.ant-col-xl-12.ant-col-xl-offset-0:nth-child(2) {
+  width: 100%;
+  padding-right: 32px;
+}
+#about-us img.img-about {
+  width: 100%;
+  height: 270px;
+  border-radius: 4px;
+}
+
+#ads,
+#flats {
+  padding: 24px 50px;
+  background: #fff !important;
+  margin: 32px 0;
+}
+@media (min-width: 992px) {
+  .ant-col-lg-8 {
+    display: block;
+    flex: 0 0 31.333333% !important;
+    max-width: 31.333333% !important;
+  }
+}
+.ant-row.ant-row-rtl {
+  justify-content: space-around;
+}
+#ads .ant-image-img {
+  width: 100%;
+  height: 250px;
+}
+#ads .ant-card-body {
+  padding: 24px;
+  height: 150px;
+}
+@media (max-width: 425px) {
+  .ant-col.ant-col-xs-32.ant-col-xs-offset-0.ant-col-rtl.ant-col-md-16.ant-col-md-offset-0.ant-col-lg-8.ant-col-lg-offset-0 {
+    margin-bottom: 16px;
+  }
+  #ads .ant-card-body {
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #flats img.ant-image-img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* flats */
+#flats {
+  background: #f0f8ff !important;
+}
+#flats .ant-card-meta-title {
+  font-size: 24px;
+  color: #1890ff;
+}
+
+/* Services */
+#services {
+  padding: 24px 50px;
+  background: #fff !important;
+}
+
+.img-Services {
+  width: 100%;
+  height: 270px;
+  border-radius: 4px;
+}
+
+/* Video Section */
+#video {
+  width: 100% !important;
+  overflow: hidden;
+}
+
+/* contact us */
+#contact-us {
+  padding: 24px 50px;
+  background: #fff !important;
+}
+#contact-us .img-contact {
+  width: 100%;
+  height: 330px;
+  border-radius: 4px;
+}
+
+form#nest-messages {
+  padding-right: 24px;
+}
+
+input#nest-messages_name,
+input#nest-messages_email,
+input#nest-messages_phone,
+input#nest-messages_subject {
+  width: 100%;
+}
+textarea#nest-messages_description {
+  width: 100%;
+  height: 100px;
+}
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right !important;
+}

@@ -1,0 +1,23 @@
+/* .ant-select , .ant-select-rtl , .ant-select-single , .ant-select-show-arrow {
+    width: 153px !important;
+}
+
+.ant-select{
+    margin: 0px 5px !important;
+}
+.ant-form-item-required {
+    color: #545757 !important;
+
+} */
+
+/* ads in user */
+li.ant-list-item {
+  background: #fff;
+  margin-bottom: 16px;
+}
+.one {
+  background: none;
+}
+.one .ant-list .ant-spin-nested-loading {
+  margin: 2px;
+}

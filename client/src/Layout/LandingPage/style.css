@@ -1,0 +1,125 @@
+/* header  */
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  line-height: 64px;
+  background: #fff !important;
+  box-shadow: 0 0 5px -5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  right: 0;
+}
+.loginBtn {
+  background: #1890ff;
+  padding: 8px;
+  border-radius: 3px;
+  color: #fff;
+  margin-right: 16px;
+}
+
+/* active link in navbar */
+.header .ant-anchor {
+  display: flex;
+  align-items: center;
+}
+.header .ant-anchor-ink {
+  display: none;
+}
+.header .ant-anchor-link {
+  padding: 0 20px;
+  line-height: 1.4;
+  position: relative;
+}
+.header .ant-anchor-link:before,
+.header .ant-anchor-link:after {
+  content: "";
+  background: #1890ff;
+  width: 1px;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 30%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.header .ant-anchor-link:after {
+  left: auto;
+  right: 30%;
+}
+.header .ant-anchor-link.ant-anchor-link-active:before,
+.header .ant-anchor-link:hover:before {
+  left: -6%;
+  opacity: 1;
+}
+.header .ant-anchor-link.ant-anchor-link-active:after,
+.header .ant-anchor-link:hover:after {
+  right: 16%;
+  opacity: 1;
+}
+
+.header .ant-menu li.ant-menu-item {
+  position: relative;
+}
+.ant-anchor-wrapper {
+  overflow: inherit !important;
+}
+
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+/* footer */
+#footer {
+  background: #70a8f3 !important;
+  color: #fff !important;
+  padding: 60px 24px;
+  text-align: right;
+}
+#footer p.para-footer {
+  margin-top: 16px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.links a {
+  color: #fff;
+}
+h1.title {
+  color: #fff;
+}
+span.icon {
+  font-size: 23px;
+  font-weight: normal;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* responsive media query */
+@media screen and (max-width: 767px) {
+  .mobileVisible {
+    display: block;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+  .ant-anchor-rtl .ant-anchor-link {
+    margin-bottom: 16px;
+  }
+  .ant-layout-header {
+    padding: 0 32px !important;
+  }
+  img.ant-image-img {
+    width: 120px;
+    height: 25px;
+}
+}
