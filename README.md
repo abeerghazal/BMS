@@ -49,7 +49,7 @@
 
 ## **Design** :recycle:
 
-[View Design](https://www.figma.com/design/4wyCkzIUAvSMcwpVkKeJ3i/BMS?node-id=0-1&node-type=canvas)
+[View Design](https://www.figma.com/design/4wyCkzIUAvSMcwpVkKeJ3i/BMS?node-id=0-1&node-type=canvas) <br />
 [View Documentation](https://docs.google.com/document/d/1aXlo1j7gs1-2OnGikyDRACQjDWBx8ujZe8uQtWl5oWg/edit?usp=sharing)
 
 
@@ -125,11 +125,11 @@ Note: You need to install our technologies like React and Node and so on...
 
 ## **Doctor of Project** :sunglasses::-
 
-:round_pushpin:[Dr.Hatem Hammad]
+Dr.Hatem Hammad
 
 ## **Team Members** 👥 :- 
 1. [Abeer Ghazal](https://github.com/abeerghazal) University ID: 220190504
-2. [Lina Turban] University ID: 220190180
+2. Lina Turban University ID: 220190180
  
 ## **Resources** :-
 
