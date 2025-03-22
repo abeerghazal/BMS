@@ -125,7 +125,7 @@ Note: You need to install our technologies like React and Node and so on...
 
 ## **Doctor of Project** :sunglasses::-
 
-Dr.Hatem Hammad
+Dr.Ruba Mansour
 
 ## **Team Members** 👥 :- 
 1. [Abeer Ghazal](https://github.com/abeerghazal) University ID: 220190504
